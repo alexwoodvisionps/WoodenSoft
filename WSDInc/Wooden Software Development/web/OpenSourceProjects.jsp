@@ -130,10 +130,15 @@
              //$('#side_' + id).addClass('active');
          //});
      });
+     function openWindow()
+     {
+         window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=84XU8GPANJS92","Donate To Wooden Soft","toolbar=0,menubar=0,height=500,width=400,scrollbars=1")
+     }
  </script>
     <form id="form1"> 
     <div id="wrapper" class="clearfix">
     <div>
+
 		
 		<div class="container">
 			
@@ -155,7 +160,7 @@
 				<li id="top_1" class="active liglow2"><a href="/index.jsp">Home</a></li>
                 <li id="top_2" class="active liglow2"><a href="/Portfolio.jsp">Portfolio</a></li>
               <li id="top_3" class="active liglow2"><a href="/Services.jsp">Software Development Services</a></li>
-               <li id="top_6" class="active liglow2"><a href="/OpenSourceProjects.jsp">Open Source Projects</a></li>
+              <li id="top_6" class="active liglow2"><a href="/OpenSourceProjects.jsp">Open Source Projects</a></li>
               <li id="top_4" class="active liglow2"><a href="/Contact.jsp">Contact Us</a></li>
               <li id="top_5" class="active liglow2"><a href="/About.jsp">About Us</a></li>
 	        </ul>
@@ -184,14 +189,20 @@
   
     
     <div id="content" >
+        
+        
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="84XU8GPANJS92">
+<input onclick="openWindow();" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         <div>
-            Wooden Software Development Inc was founded On January 1st, 2009 by Alexander Wood (CEO/President) and Michael Rylander (COO and chief board executive).
-            In 2012, Michael sought opportunities with another company handing all his stock over to the president due to a non-compete agreement.
-            In late 2012, the company was valued at $100K and several offers to buy the company came through.
-            The CEO blazing the trail: hired several people to market and work sales and the time and money paid off: At the end of the second quarter: Wooden Software Development Inc had 5 major clients.
-            Although the business was slowly maturing, the CEO advanced the technology of the company: seeking cloud computing, mobile development and .NET knowledge and developers. 
-            He personally over-saw client meetings to ensure that each client's software was up to his strictest standards.
-            The company is dedicated to excellent software solutions and Connie Wood the CEO's love and soul mate.
+           Git Repositories of Open Source Projects:
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://github.com/alexwoodvisionps/Vision-Html-5-Image-Manipulation-JQuery-Plugin">Pure HTML5 Image Manipulation JQuery Plugin</a></li>
+                <li>Rotate, Flip, Remove Red Eye, Sepia, and GreyScale Manipulation with examples in a .NET Project</li>
+            </ul>
         </div>
     </div>
    
@@ -217,30 +228,7 @@
 				
 				<div class="grid-4">
 					
-					<h3><span class="slash">//</span> Socialize with us!</h3>
 					
-					<p>Share this site information on Facebook or visit our twitter page!</p>
-					
-					<ul class="social-icons-container">						
-						<li>
-							<a href="http://www.twitter.com/" class="social-icon social-icon-twitter active">
-								Twitter
-							</a>
-						</li>
-						
-						<li>							
-							<a href="javascript:shareLinkFacebook()" class="social-icon social-icon-facebook active">
-								Facebook
-							</a>
-						</li>
-						
-					</ul>
-					
-				</div> <!-- /grid-4 -->
-				
-				<div class="grid-4">
-						
-				
 					
 				</div><!-- /grid-4 -->
 				

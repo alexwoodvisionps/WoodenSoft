@@ -106,7 +106,12 @@
          else if (url.indexOf("about.jsp") != -1) {
             // $('#side_5').addClass("active");
              $('#top_5').addClass("active");
-         } else {
+         } 
+         else if(url.indexOf("OpenSourceProjects.jsp") != -1)
+         {
+             $('#top_6').addClass("active");
+         }
+         else {
             // $('#side_1').addClass("active");
              $('#top_1').addClass("active");
          }
@@ -190,6 +195,7 @@
 				<li id="top_1" class="active liglow2"><a href="/index.jsp">Home</a></li>
                 <li id="top_2" class="active liglow2"><a href="/Portfolio.jsp">Portfolio</a></li>
               <li id="top_3" class="active liglow2"><a href="/Services.jsp">Software Development Services</a></li>
+               <li id="top_6" class="active liglow2"><a href="/OpenSourceProjects.jsp">Open Source Projects</a></li>
               <li id="top_4" class="active liglow2"><a href="/Contact.jsp">Contact Us</a></li>
               <li id="top_5" class="active liglow2"><a href="/About.jsp">About Us</a></li>
 	        </ul>
